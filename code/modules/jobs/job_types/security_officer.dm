@@ -471,3 +471,12 @@ GLOBAL_LIST_EMPTY(security_officer_distribution)
 			lowest_departments += department
 
 	return (preference in lowest_departments) ? preference : lowest_departments[1]
+
+/datum/outfit/job/security/wizard
+	name = "Security Officer (Wizard)"
+
+	uniform = /obj/item/clothing/under/color/lightpurple
+	suit = /obj/item/clothing/suit/wizrobe
+	shoes = /obj/item/clothing/shoes/sandal/magic
+	ears = /obj/item/radio/headset
+	head = /obj/item/clothing/head/wizard

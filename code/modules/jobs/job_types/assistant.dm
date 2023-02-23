@@ -196,3 +196,13 @@ Assistant
 
 	// Couldn't find a matching jumpskirt, oh well
 	jumpskirts = list(get_random_jumpskirt())
+
+/datum/outfit/job/assistant/wizard
+	name = "Assistant (Wizard)"
+
+	uniform = /obj/item/clothing/under/color/lightpurple
+	suit = /obj/item/clothing/suit/wizrobe
+	shoes = /obj/item/clothing/shoes/sandal/magic
+	ears = /obj/item/radio/headset
+	head = /obj/item/clothing/head/wizard
+	back = /obj/item/storage/backpack

@@ -104,3 +104,13 @@
 <li>Don't forget to set a custom occupation! SecHUDs now interface direct with the ID card's trim and display the trim's job icon even when a custom assignment is set.</li>
 </ol>
 	"}
+
+/datum/outfit/job/head_of_personnel/wizard
+	name = "Head of Personnel (Wizard)"
+
+	uniform = /obj/item/clothing/under/color/lightpurple
+	suit = /obj/item/clothing/suit/wizrobe
+	shoes = /obj/item/clothing/shoes/sandal/magic
+	ears = /obj/item/radio/headset
+	head = /obj/item/clothing/head/wizard
+	back = /obj/item/storage/backpack
